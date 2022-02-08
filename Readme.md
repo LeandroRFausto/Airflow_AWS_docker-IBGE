@@ -21,7 +21,7 @@ Necessário importar pacotes que serão utilizados no arquivo dag_IBGE.py.
 Quaisquer aplicações não presentes necessárias a execução deverão ser baixadas. 
 
 <p align="center">
-<img src="https://github.com/LeandroRFausto/Airflow_AWS_docker-IBGE/AWS/Arquitetura_DAG_IBGE.pptx" alt="Image" height="300" width="600"/>
+<img src="https://github.com/LeandroRFausto/Airflow_AWS_docker-IBGE/blob/main/AWS/Arquitetura_DAG_IBGE.png" alt="Image" height="300" width="600"/>
 </p>
 
 # Uso
@@ -42,7 +42,7 @@ A configuração define o Airflow no http://localhost:8080/ .
 * Execute a DAG
 
 <p align="center">
-<img src="https://github.com/LeandroRFausto/Airflow_AWS_docker-IBGE/GraphView_dag.png" alt="Image" height="300" width="600"/>
+<img src="https://github.com/LeandroRFausto/Airflow_AWS_docker-IBGE/blob/main/GraphView_dag.png" alt="Image" height="300" width="600"/>
 </p>
 
 * O Graph View deverá demonstrar todos os trabalhos em verde. Quando o status for "success", abra o SGBD de sua preferência. Lá estarão disponíveis os arquivos dimensao_messoregioes_RJ.csv e pnadc20203.csv, os mesmos presentes no AWS S3. Na pasta DB_relacional deste projeto há dois arquivos de extensão .sql gerados para consulta através do SGBD.
@@ -52,7 +52,7 @@ A configuração define o Airflow no http://localhost:8080/ .
 * O Amazon QuickSight foi utilizado para construção de Dashboards, entretanto eles também pode ser usado para insights.
 
 <p align="center">
-<img src="https://github.com/LeandroRFausto/Airflow_AWS_docker-IBGE/AWS/Dashboard_IBGE.jpg" alt="Image" height="300" width="600"/>
+<img src="https://github.com/LeandroRFausto/Airflow_AWS_docker-IBGE/blob/main/AWS/Dashboard_IBGE.jpg" alt="Image" height="300" width="600"/>
 </p>
 
 
