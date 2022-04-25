@@ -49,7 +49,7 @@ A configuração define o Airflow no http://localhost:8080/ .
 
 * No Aws Glue crie um novo crawler. Ele irá identificar os esquemas e enviará as tabelas para consumo no Athena. Os arquivos de extensão .csv encontrados na pasta AWS desse projeto são oriundos da consulta. 
 
-* O Amazon QuickSight foi utilizado para construção de Dashboards, entretanto eles também pode ser usado para insights.
+* O Amazon QuickSight foi utilizado para construção de Dashboards, entretanto ele também pode ser usado para insights.
 
 <p align="center">
 <img src="https://github.com/LeandroRFausto/Airflow_AWS_docker-IBGE/blob/main/AWS/Dashboard_IBGE.jpg" alt="Image" height="300" width="600"/>
